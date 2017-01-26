@@ -6,14 +6,25 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <header>
-	<div class="logo">AnalogSea
-	</div>
-	<nav>
-		<ul>
-			<li></li>
-		</ul>
+		<nav class="navcontainer">
+		<img src=".\images\logo.png" alt="AnalogSea">
+		</nav>
 </header>
 <body>
 
+<form class="signup" action="/signup">
+<h1>Sign up</h1>
+	<label for="email"  class="left">Email</label>
+	</br>
+	<input type="email" placeholder="foo@bar.com" id='email' />
+	</br>
+	<label for="password" class="left">Password</label>
+	</br>
+	<input type="password" placeholder="1234passw0rd" />
+	</br>
+	<button type='submit'> Sign Up</button>
+	<a href="/forgot-password" class="center">Forgot password?</a>
+</form>
+<p class="account">Already have an account <a href="account">Log in</a></p>
 </body>
 </html>
